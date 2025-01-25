@@ -126,6 +126,7 @@ entities:
     spawner-nerfed-mobs-should-jump: false
     zombie-villager-infection-chance: default
     zombies-target-turtle-eggs: true
+  entities-target-with-follow-range: false
   markers:
     tick: true
   mob-effects:
@@ -170,9 +171,6 @@ entities:
       water_creature:
         hard: default
         soft: default
-    despawn-time:
-      llama_spit: disabled
-      snowball: disabled
     disable-mob-spawner-spawn-egg-transformation: false
     duplicate-uuid:
       mode: SAFE_REGEN
@@ -254,8 +252,6 @@ environment:
     find-already-discovered:
       loot-tables: default
       villager-trade: false
-  void-damage-amount: 4.0
-  void-damage-min-build-height-offset: -64.0
   water-over-lava-flow-speed: 5
 feature-seeds:
   generate-random-seeds-for-all: false
@@ -263,7 +259,7 @@ fishing-time-range:
   maximum: 600
   minimum: 100
 fixes:
-  disable-unloaded-chunk-enderpearl-exploit: false
+  disable-unloaded-chunk-enderpearl-exploit: true
   falling-block-height-nerf: disabled
   fix-items-merging-through-walls: false
   prevent-tnt-from-moving-in-water: false
@@ -281,7 +277,6 @@ lootables:
   reset-seed-on-fill: true
   restrict-player-reloot: true
   restrict-player-reloot-time: disabled
-  retain-unlooted-shulker-box-loot-table-on-non-player-break: true
 maps:
   item-frame-cursor-limit: 128
   item-frame-cursor-update-interval: 10
@@ -296,7 +291,6 @@ misc:
   disable-end-credits: false
   disable-relative-projectile-velocity: false
   disable-sprint-interruption-on-attack: false
-  legacy-ender-pearl-behavior: false
   light-queue-size: 20
   max-leash-distance: default
   redstone-implementation: VANILLA
