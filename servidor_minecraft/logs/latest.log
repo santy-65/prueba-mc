@@ -58,3 +58,7 @@
 [03:59:45] [User Authenticator #0/INFO]: UUID of player Alexboyx5551 is f3d42d48-fcb3-3478-9f79-71ef57f1a67d
 [03:59:48] [Server thread/INFO]: Alexboyx5551 joined the game
 [03:59:48] [Server thread/INFO]: Alexboyx5551[/[0:0:0:0:0:0:0:1%0]:49724] logged in with entity id 26 at ([world]-870.3000000119209, -9.0, 881.7876438992545)
+[04:11:19] [Server thread/INFO]: Alexboyx5551 issued server command: /gamemode spectator
+[04:11:19] [Server thread/INFO]: [Alexboyx5551: Set own game mode to Spectator Mode]
+[04:11:34] [Server thread/INFO]: Alexboyx5551 issued server command: /gamemode survival
+[04:11:34] [Server thread/INFO]: [Alexboyx5551: Set own game mode to Survival Mode]
