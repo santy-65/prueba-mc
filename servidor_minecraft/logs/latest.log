@@ -1,67 +1,69 @@
-[03:57:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[03:57:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[03:57:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:57:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[03:57:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[00:57:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[00:57:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[00:57:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:57:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[00:57:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - SkinsRestorer (15.5.2)
-[03:57:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:57:34] [ServerMain/INFO]: Loaded 1290 recipes
-[03:57:34] [ServerMain/INFO]: Loaded 1399 advancements
-[03:57:34] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[03:57:34] [Server thread/INFO]: Loading properties
-[03:57:34] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[03:57:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:57:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:57:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:57:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[03:57:37] [Server thread/INFO]: Default game type: SURVIVAL
-[03:57:37] [Server thread/INFO]: Generating keypair
-[03:57:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:57:37] [Server thread/INFO]: Using epoll channel type
-[03:57:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:57:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:57:37] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.2
-[03:57:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:57:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.2
-[03:57:38] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[03:57:41] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[03:57:43] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[03:57:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:57:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:57:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:57:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:57:43] [Server thread/INFO]: Preparing level "world"
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.2
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ae257f6
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[03:57:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[03:57:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:57:45] [Server thread/INFO]: Time elapsed: 1941 ms
-[03:57:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:57:46] [Server thread/INFO]: Time elapsed: 1060 ms
-[03:57:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:57:47] [Server thread/INFO]: Time elapsed: 501 ms
-[03:57:47] [Server thread/INFO]: [spark] Starting background profiler...
-[03:57:48] [Server thread/INFO]: Done preparing level "world" (5.222s)
-[03:57:48] [Server thread/INFO]: Running delayed init tasks
-[03:57:48] [Server thread/INFO]: Done (23.657s)! For help, type "help"
-[03:57:48] [Server thread/INFO]: Timings Reset
-[03:59:45] [User Authenticator #0/INFO]: UUID of player Alexboyx5551 is f3d42d48-fcb3-3478-9f79-71ef57f1a67d
-[03:59:48] [Server thread/INFO]: Alexboyx5551 joined the game
-[03:59:48] [Server thread/INFO]: Alexboyx5551[/[0:0:0:0:0:0:0:1%0]:49724] logged in with entity id 26 at ([world]-870.3000000119209, -9.0, 881.7876438992545)
-[04:11:19] [Server thread/INFO]: Alexboyx5551 issued server command: /gamemode spectator
-[04:11:19] [Server thread/INFO]: [Alexboyx5551: Set own game mode to Spectator Mode]
-[04:11:34] [Server thread/INFO]: Alexboyx5551 issued server command: /gamemode survival
-[04:11:34] [Server thread/INFO]: [Alexboyx5551: Set own game mode to Survival Mode]
-[04:25:58] [Server thread/INFO]: Alexboyx5551 was blown up by Creeper
-[04:27:12] [Server thread/INFO]: Alexboyx5551 has made the advancement [Suit Up]
-[04:44:20] [Server thread/INFO]: Alexboyx5551 has made the advancement [A Seedy Place]
+[00:57:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:57:49] [ServerMain/INFO]: Loaded 1290 recipes
+[00:57:49] [ServerMain/INFO]: Loaded 1399 advancements
+[00:57:49] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[00:57:49] [Server thread/INFO]: Loading properties
+[00:57:49] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[00:57:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:57:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:57:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:57:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[00:57:51] [Server thread/INFO]: Default game type: SURVIVAL
+[00:57:51] [Server thread/INFO]: Generating keypair
+[00:57:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:57:51] [Server thread/INFO]: Using epoll channel type
+[00:57:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:57:51] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:57:51] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.2
+[00:57:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:57:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.2
+[00:57:53] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[00:57:54] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[00:57:56] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[00:57:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:57:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:57:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:57:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:57:56] [Server thread/INFO]: Preparing level "world"
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.2
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ae257f6
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[00:57:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[00:57:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:57:58] [Server thread/INFO]: Time elapsed: 1398 ms
+[00:57:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:57:58] [Server thread/INFO]: Time elapsed: 267 ms
+[00:57:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:57:58] [Server thread/INFO]: Time elapsed: 139 ms
+[00:57:58] [Server thread/INFO]: [spark] Starting background profiler...
+[00:57:58] [Server thread/INFO]: Done preparing level "world" (2.723s)
+[00:57:58] [Server thread/INFO]: Running delayed init tasks
+[00:57:58] [Server thread/INFO]: Done (16.807s)! For help, type "help"
+[00:57:58] [Server thread/INFO]: Timings Reset
+[00:59:37] [User Authenticator #0/INFO]: UUID of player Alexboyx5551 is f3d42d48-fcb3-3478-9f79-71ef57f1a67d
+[00:59:40] [Server thread/INFO]: Alexboyx5551 joined the game
+[00:59:40] [Server thread/INFO]: Alexboyx5551[/[0:0:0:0:0:0:0:1%0]:60380] logged in with entity id 26 at ([world]-955.995510457393, 64.0, 1451.585529418756)
+[00:59:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c6d2ea2d-ca45-42d5-9d4f-070584a2bd1a, mapped to Bat['Bat'/59, uuid='c6d2ea2d-ca45-42d5-9d4f-070584a2bd1a', l='ServerLevel[world]', x=-883.61, y=-25.98, z=1442.78, cpos=[-56, 90], tl=185, v=true], can't add Bat['Bat'/70, uuid='c6d2ea2d-ca45-42d5-9d4f-070584a2bd1a', l='ServerLevel[world]', x=-882.80, y=-33.29, z=1456.25, cpos=[-56, 91], tl=956, v=false]
+[00:59:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 233138f0-50d6-4bdb-8a51-77845c192189, mapped to Cat['Cat'/47, uuid='233138f0-50d6-4bdb-8a51-77845c192189', l='ServerLevel[world]', x=-934.79, y=70.00, z=1419.21, cpos=[-59, 88], tl=29257, v=true], can't add Cat['Cat'/81, uuid='233138f0-50d6-4bdb-8a51-77845c192189', l='ServerLevel[world]', x=-937.74, y=67.00, z=1391.21, cpos=[-59, 86], tl=27166, v=false]
+[00:59:41] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9f290abc-f49b-4bc3-b786-1cd4b0ff4fc2, mapped to Bat['Bat'/80, uuid='9f290abc-f49b-4bc3-b786-1cd4b0ff4fc2', l='ServerLevel[world]', x=-858.48, y=2.27, z=1449.11, cpos=[-54, 90], tl=287, v=true], can't add Bat['Bat'/96, uuid='9f290abc-f49b-4bc3-b786-1cd4b0ff4fc2', l='ServerLevel[world]', x=-857.25, y=-3.28, z=1459.50, cpos=[-54, 91], tl=1058, v=false]
+[00:59:41] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7914406d-e096-4abe-bdd2-4b6d16c47273, mapped to Villager['Cleric'/75, uuid='7914406d-e096-4abe-bdd2-4b6d16c47273', l='ServerLevel[world]', x=-912.21, y=73.56, z=1394.71, cpos=[-58, 87], tl=29132, v=true], can't add Villager['Cleric'/107, uuid='7914406d-e096-4abe-bdd2-4b6d16c47273', l='ServerLevel[world]', x=-906.65, y=72.94, z=1376.45, cpos=[-57, 86], tl=27166, v=false]
+[00:59:41] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: fb75351e-4587-426f-bf22-39dc9aa4d402, mapped to IronGolem['Iron Golem'/83, uuid='fb75351e-4587-426f-bf22-39dc9aa4d402', l='ServerLevel[world]', x=-899.86, y=68.00, z=1392.94, cpos=[-57, 87], tl=29404, v=true], can't add IronGolem['Iron Golem'/108, uuid='fb75351e-4587-426f-bf22-39dc9aa4d402', l='ServerLevel[world]', x=-896.87, y=68.00, z=1385.98, cpos=[-57, 86], tl=27438, v=false]
+[00:59:41] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: bc4fd886-e053-4112-bc04-5c28de736c6b, mapped to Villager['Mason'/109, uuid='bc4fd886-e053-4112-bc04-5c28de736c6b', l='ServerLevel[world]', x=-898.38, y=64.56, z=1390.65, cpos=[-57, 86], tl=27346, v=true], can't add Villager['Mason'/127, uuid='bc4fd886-e053-4112-bc04-5c28de736c6b', l='ServerLevel[world]', x=-903.49, y=64.00, z=1369.60, cpos=[-57, 85], tl=27049, v=false]
+[00:59:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e4776b3d-75f5-452b-bd16-6ec766090606, mapped to Villager['Farmer'/111, uuid='e4776b3d-75f5-452b-bd16-6ec766090606', l='ServerLevel[world]', x=-902.46, y=63.00, z=1383.51, cpos=[-57, 86], tl=28049, v=true], can't add Villager['Farmer'/185, uuid='e4776b3d-75f5-452b-bd16-6ec766090606', l='ServerLevel[world]', x=-895.27, y=68.00, z=1350.49, cpos=[-56, 84], tl=27686, v=false]
+[00:59:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3884f320-e3d4-4cba-8a52-d1e5280d3f79, mapped to Villager['Leatherworker'/135, uuid='3884f320-e3d4-4cba-8a52-d1e5280d3f79', l='ServerLevel[world]', x=-883.67, y=63.00, z=1383.50, cpos=[-56, 86], tl=27819, v=true], can't add Villager['Leatherworker'/186, uuid='3884f320-e3d4-4cba-8a52-d1e5280d3f79', l='ServerLevel[world]', x=-895.49, y=70.00, z=1348.73, cpos=[-56, 84], tl=27456, v=false]
+[00:59:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3884f320-e3d4-4cba-8a52-d1e5280d3f79, mapped to Villager['Leatherworker'/135, uuid='3884f320-e3d4-4cba-8a52-d1e5280d3f79', l='ServerLevel[world]', x=-883.67, y=63.00, z=1383.50, cpos=[-56, 86], tl=27819, v=true], can't add Villager['Leatherworker'/197, uuid='3884f320-e3d4-4cba-8a52-d1e5280d3f79', l='ServerLevel[world]', x=-893.51, y=72.94, z=1340.80, cpos=[-56, 83], tl=27386, v=false]
